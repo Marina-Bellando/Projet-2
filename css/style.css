@@ -166,19 +166,44 @@ a {
     /* ... */
 }
 
-    header {
+    nav {
         width: 1440px;
+        height: 79px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 
     #logo {
-
-    }
-
-    .En-tete {
-        font-size: 16px;
-        color :#000000;
-        font-family: 'Raleway';
-        font-weight: 400;
-        text-decoration : none;
+        padding: 30px,50px,30px,50px;
+        width: 61px,;
+        height: 19px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
         
     }
+
+    .En-tete{
+        font-size: 16px;
+        color :#000000;
+        font-weight: 400;
+        display: flex;
+        text-decoration : none;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        width : 344px;
+        padding: 0px,50px,0px,50px;
+        gap: 68px;
+    }
+   
+
+        a:hover{
+        text-decoration: overline #0065FC;
+        text-decoration-thickness : 2px;
+        width: auto;
+        color: #0065FC;
+}
