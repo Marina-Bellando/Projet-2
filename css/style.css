@@ -176,35 +176,35 @@ a {
     }
 
     #logo {
-        padding: 30px,50px,30px,50px;
-        width: 61px,;
-        height: 19px;
+        padding: 30px 50px 30px 0px;
         display:flex;
         flex-direction: row;
-        justify-content: center;
         gap: 10px;
+        width: 61px;
+        height: 19px;
+        justify-content: center;
     }
 
     .En-tete{
+        font-family: 'Raleway';
+        font-weight: 400;
         font-size: 16px;
         color :#000000;
-        font-weight: 400;
         display: flex;
         text-decoration : none;
         flex-direction: row;
         align-items: center;
-        margin: auto;
-        margin-top: 16px;
-        margin-left: 1096px;
-        width : 344px;
-        padding: 0px,50px,0px,50px;
+        height: 35px;
+        width : 244px;
         gap: 68px;
+        padding-left:50px;
+        margin: auto;
     }
-   
 
-        a:hover{
+    .En-tete :hover{
         text-decoration: overline #0065FC;
         text-decoration-thickness : 2px;
-        width: auto;
         color: #0065FC;
-}
+        width: auto;
+        text-decoration: ;
+    }
