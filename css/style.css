@@ -165,7 +165,7 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
-
+     /* Header */
     nav {
         width: 1440px;
         height: 79px;
@@ -208,3 +208,6 @@ a {
         width: auto;
         text-decoration: ;
     }
+
+            /*Onglet rechercher*/
+    
