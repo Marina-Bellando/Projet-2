@@ -166,28 +166,25 @@ a {
     /* ... */
 }
      /* Header */
-
-   header {
+    header {
         width: 1400px;
         height: 79px;
         padding-bottom: 20px;
    }
- 
+    #nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    height: 79px;
+}
+    
     #logo {
         width: 61px;
         height: 19px;
         padding: 15px 50px 30px 0px;
     }
-
-    #nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        width: 1400px;
-        height: 79px;
-    }
-    
     .en_tete {
         padding: 35px 0px 0px 0px;
         text-decoration: none;
@@ -199,43 +196,41 @@ a {
         color: black;
         border-top: 1px solid transparent;
     }
-
     .bouton_en_tete {
         display: flex;
         padding: 0px 50px 0px 50px;
     }
-
     .en_tete:hover{
         color: #0065FC;
         border-top: 2px solid #0065FC;
     }
-
     .en_tete_1{
         width: 113px;
         height: 35px;
         margin-right: 65px;
     }
-
     .en_tete_2{
         width: 63px;
         height: 35px;
         margin-right: 10px;
     }
 
-            /*Onglet rechercher*/
+            /*Formulaire Recherche*/
+    .onglet-rechercher {
+        padding-bottom: 20px;
+    }
     .en-tete-rechercher{
         width: 1340px;
         height: 53px;
         margin-bottom: 20px;
     }
-
     .titre-rechercher{
         font-weight: 700;
         font-size: 22px;
         Height: 26px;
         margin: 0px;
+        padding-bottom: 5px;
     }
-
     .descriptif-rechercher{
         font-weight: 400;
         font-size: 16px;
@@ -243,6 +238,32 @@ a {
         margin: 0px;
     }
 
+    .formulaire-rechercher{
+
+        
+    }
+    .icone-location{
+        width: 50px;
+        height: 49px;
+        background-color :#F2F2F2;
+        border-radius: 15px 0px 0px 15px;
+        border:solid transparent 1px;
+    }
+    .fa-location-dot{
+        color: black;
+        width: 14px;
+        height: 18px;
+    }
+    .searchbar{
+        font-weight: 700;
+        font-size: 16px;
+        width: 147px;
+        height: 49px;
+        text-align: center;
+        color: black;
+        border: solid #F2F2F2 1px;
+    }
+   
     .icone-loupe{
         display: none;
     }
