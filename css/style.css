@@ -189,7 +189,7 @@ a {
     }
     
     .en_tete {
-        padding: 35px 30px 0px 30px;
+        padding: 35px 0px 0px 0px;
         text-decoration: none;
         text-align: center;
         font-family: 'Raleway';
@@ -197,6 +197,7 @@ a {
         font-size: 16px;
         display: flex;
         color: black;
+        border-top: 1px solid transparent;
     }
 
     .bouton_en_tete {
@@ -212,12 +213,15 @@ a {
     .en_tete_1{
         width: 113px;
         height: 35px;
+        margin-right: 65px;
     }
 
     .en_tete_2{
         width: 63px;
         height: 35px;
+        margin-right: 10px;
     }
+
             /*Onglet rechercher*/
     .en-tete-rechercher{
         width: 1340px;
