@@ -166,49 +166,58 @@ a {
     /* ... */
 }
      /* Header */
-    nav {
-        width: 1440px;
+
+   header {
+        width: 1400px;
         height: 79px;
+        padding-bottom: 20px;
+   }
+ 
+    #logo {
+        width: 61px;
+        height: 19px;
+        padding: 15px 50px 30px 0px;
+    }
+
+    #nav {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        width: 1400px;
+        height: 79px;
     }
-
-    #logo {
-        padding: 30px 50px 30px 0px;
-        display:flex;
-        flex-direction: row;
-        gap: 10px;
-        width: 61px;
-        height: 19px;
-        justify-content: center;
-    }
-
-    .En-tete{
+    
+    .en_tete {
+        padding: 35px 30px 0px 30px;
+        text-decoration: none;
+        text-align: center;
         font-family: 'Raleway';
         font-weight: 400;
         font-size: 16px;
-        color :#000000;
         display: flex;
-        text-decoration : none;
-        flex-direction: row;
-        align-items: center;
-        height: 35px;
-        width : 244px;
-        gap: 68px;
-        padding-left:50px;
-        margin: auto;
+        color: black;
     }
 
-    .En-tete :hover{
-        text-decoration: overline #0065FC;
-        text-decoration-thickness : 2px;
+    .bouton_en_tete {
+        display: flex;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .en_tete:hover{
         color: #0065FC;
-        width: auto;
-        text-decoration: ;
+        border-top: 2px solid #0065FC;
     }
 
+    .en_tete_1{
+        width: 113px;
+        height: 35px;
+    }
+
+    .en_tete_2{
+        width: 63px;
+        height: 35px;
+    }
             /*Onglet rechercher*/
     .en-tete-rechercher{
         width: 1340px;
@@ -234,4 +243,4 @@ a {
         display: none;
     }
 
-    
+
