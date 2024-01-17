@@ -238,9 +238,10 @@ a {
         margin: 0px;
     }
 
-    .formulaire-rechercher{
+    form {
+        display: flex;
+        width: 377px;
 
-        
     }
     .icone-location{
         width: 50px;
@@ -254,16 +255,27 @@ a {
         width: 14px;
         height: 18px;
     }
-    .searchbar{
+    #searchbar{
         font-weight: 700;
         font-size: 16px;
         width: 147px;
         height: 49px;
         text-align: center;
         color: black;
-        border: solid #F2F2F2 1px;
+        border-top: solid #F2F2F2 1px;
+        border-bottom: solid #F2F2F2 1px;
+        border-left: solid transparent 1px;
+        border-right: solid transparent 1px;
     }
-   
+   input[type='submit'] {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        background-color: #0065FC;
+        border-radius: 0px 15px 15px 0px;
+        border :solid transparent 1px;
+   }
     .icone-loupe{
         display: none;
     }
