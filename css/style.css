@@ -58,6 +58,167 @@ a {
     color: var(--main-bg-color)
 }
 
+                /* Header */
+     header {
+        width: 1400px;
+        height: 79px;
+        padding-bottom: 20px;
+   }
+    #nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    height: 79px;
+}
+    #logo {
+        width: 61px;
+        height: 19px;
+        padding: 15px 50px 30px 0px;
+    }
+    .en_tete {
+        padding: 35px 0px 0px 0px;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 16px;
+        display: flex;
+        color: black;
+        border-top: 1px solid transparent;
+    }
+    .bouton_en_tete {
+        display: flex;
+        padding: 0px 50px 0px 50px;
+    }
+    .en_tete:hover{
+        color: #0065FC;
+        border-top: 2px solid #0065FC;
+    }
+    .en_tete_1{
+        width: 113px;
+        height: 35px;
+        margin-right: 65px;
+    }
+    .en_tete_2{
+        width: 63px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+            /*Formulaire Recherche*/
+    .onglet-rechercher {
+        padding-bottom: 20px;
+    }
+    .en-tete-rechercher{
+        width: 1340px;
+        height: 53px;
+        margin-bottom: 20px;
+    }
+    .titre-rechercher{
+        font-weight: 700;
+        font-size: 22px;
+        Height: 26px;
+        margin: 0px;
+        padding-bottom: 5px;
+    }
+    .descriptif-rechercher{
+        font-weight: 400;
+        font-size: 16px;
+        height: 19px;
+        margin: 0px;
+    }
+
+    form {
+        display: flex;
+        width: 377px;
+        padding-bottom: 20px;
+    }
+    .icone-location{
+        width: 50px;
+        height: 49px;
+        background-color :#F2F2F2;
+        border-radius: 15px 0px 0px 15px;
+        border:solid transparent 1px;
+    }
+    .fa-location-dot{
+        color: black;
+        width: 14px;
+        height: 18px;
+    }
+    #searchbar{
+        font-weight: 700;
+        font-size: 16px;
+        width: 147px;
+        height: 49px;
+        text-align: center;
+        color: black;
+        border-top: solid #F2F2F2 1px;
+        border-bottom: solid #F2F2F2 1px;
+        border-left: solid transparent 1px;
+        border-right: solid transparent 1px;
+    }
+   input[type='submit'] {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        background-color: #0065FC;
+        border-radius: 0px 15px 15px 0px;
+        border :solid transparent 1px;
+   }
+    .icone-loupe{
+        display: none;
+    }
+
+                /*Zone Filtres*/
+    .filtres{
+        width:758px;
+        height: 50px;
+        padding-bottom: 20px;
+        display: flex;
+        font-weight: 700;
+        font-size: 17px;
+        justify-content: space-between;
+    }
+    .Filtres{
+        font-weight: 700;
+        font-size: 18px;
+        width: 54px;
+        height: 21px;
+    }
+    .bouton-filtre{
+        border-radius: 25px;
+        border :solid 2px #D9D9D9;
+        padding : 4px 19px 4px 19px;
+        display : flex;
+        align-items: center;
+    }
+    .fa-person,.fa-money-bill-wave,.fa-heart,.fa-fire{
+        padding: 10px;
+    }
+    .bouton-filtre:hover{
+        background-color : #DEEBFF;
+    }
+
+                    /*InfoBar*/
+    .infobar{
+        font-weight: 400;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+    .fa-info{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border : solid 1px #D9D9D9;
+        text-align: center;
+        padding-top: 5px;
+        margin-right: 10px;
+    }
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -75,6 +236,7 @@ a {
 .hebergements {
     width: 65%;
 }
+
 
 /****** Populaires ***********/
 .populaires {
@@ -165,165 +327,3 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
-     /* Header */
-    header {
-        width: 1400px;
-        height: 79px;
-        padding-bottom: 20px;
-   }
-    #nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 1400px;
-    height: 79px;
-}
-    
-    #logo {
-        width: 61px;
-        height: 19px;
-        padding: 15px 50px 30px 0px;
-    }
-    .en_tete {
-        padding: 35px 0px 0px 0px;
-        text-decoration: none;
-        text-align: center;
-        font-family: 'Raleway';
-        font-weight: 400;
-        font-size: 16px;
-        display: flex;
-        color: black;
-        border-top: 1px solid transparent;
-    }
-    .bouton_en_tete {
-        display: flex;
-        padding: 0px 50px 0px 50px;
-    }
-    .en_tete:hover{
-        color: #0065FC;
-        border-top: 2px solid #0065FC;
-    }
-    .en_tete_1{
-        width: 113px;
-        height: 35px;
-        margin-right: 65px;
-    }
-    .en_tete_2{
-        width: 63px;
-        height: 35px;
-        margin-right: 10px;
-    }
-
-            /*Formulaire Recherche*/
-    .onglet-rechercher {
-        padding-bottom: 20px;
-    }
-    .en-tete-rechercher{
-        width: 1340px;
-        height: 53px;
-        margin-bottom: 20px;
-    }
-    .titre-rechercher{
-        font-weight: 700;
-        font-size: 22px;
-        Height: 26px;
-        margin: 0px;
-        padding-bottom: 5px;
-    }
-    .descriptif-rechercher{
-        font-weight: 400;
-        font-size: 16px;
-        height: 19px;
-        margin: 0px;
-    }
-
-    form {
-        display: flex;
-        width: 377px;
-        padding-bottom: 20px;
-
-    }
-    .icone-location{
-        width: 50px;
-        height: 49px;
-        background-color :#F2F2F2;
-        border-radius: 15px 0px 0px 15px;
-        border:solid transparent 1px;
-    }
-    .fa-location-dot{
-        color: black;
-        width: 14px;
-        height: 18px;
-    }
-    #searchbar{
-        font-weight: 700;
-        font-size: 16px;
-        width: 147px;
-        height: 49px;
-        text-align: center;
-        color: black;
-        border-top: solid #F2F2F2 1px;
-        border-bottom: solid #F2F2F2 1px;
-        border-left: solid transparent 1px;
-        border-right: solid transparent 1px;
-    }
-   input[type='submit'] {
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-        background-color: #0065FC;
-        border-radius: 0px 15px 15px 0px;
-        border :solid transparent 1px;
-   }
-    .icone-loupe{
-        display: none;
-    }
-
-                /*Zone Filtres*/
-    .filtres{
-        width:758px;
-        height: 50px;
-        padding-bottom: 20px;
-        display: flex;
-        font-weight: 700;
-        font-size: 17px;
-        justify-content: space-between;
-    }
-    .Filtres{
-        font-weight: 700;
-        font-size: 18px;
-        width: 54px;
-        height: 21px;
-    }
-    .bouton-filtre{
-        border-radius: 25px;
-        border :solid 2px #D9D9D9;
-        padding : 4px 19px 4px 19px;
-        display : flex;
-        align-items: center;
-    }
-    .fa-person,.fa-money-bill-wave,.fa-heart,.fa-fire{
-        padding: 10px;
-    }
-    .bouton-filtre:hover{
-        background-color : #DEEBFF;
-    }
-
-                    /*InfoBar*/
-    .infobar{
-        font-weight: 400;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-    }
-    .fa-info{
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        border : solid 1px #D9D9D9;
-        text-align: center;
-        padding-top: 5px;
-        margin-right: 10px;
-    }
