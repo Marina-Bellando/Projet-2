@@ -307,6 +307,9 @@ a {
     .fa-person,.fa-money-bill-wave,.fa-heart,.fa-fire{
         padding: 10px;
     }
+    .bouton-filtre:hover{
+        background-color : #DEEBFF;
+    }
 
                     /*InfoBar*/
     .infobar{
