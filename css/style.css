@@ -236,7 +236,7 @@ a {
 .hebergements {
     width: 65%;
 }
-.titre-hebergements{
+#Hebergements{
     font-weight: 700;
     font-size: 22px;
     display:flex;
@@ -252,8 +252,8 @@ a {
 .hebergements-cards .card1, .card2{
     display: flex;
     margin-top: 33px;
+    margin-bottom: 33px;
     justify-content: space-between;
-    width: auto;
 }
 .hebergements-cards .contenu-card{
     width: 250px;
