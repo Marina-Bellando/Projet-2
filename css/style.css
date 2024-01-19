@@ -330,7 +330,7 @@ a {
 
             /*Activités*/
 .activites {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     height: 100%;
 }
 #Activites {
@@ -372,6 +372,11 @@ a {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
+}
+
+                /*Footer*/
+footer{
+    background-color: var(--main-bg-color);
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
