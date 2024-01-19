@@ -223,6 +223,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .hebergements-and-populaires section {
@@ -239,14 +240,14 @@ a {
 #Hebergements{
     font-weight: 700;
     font-size: 22px;
-    display:flex;
+    margin: 0;
 }
 .hebergements-cards img{
     width:100%;
     height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .hebergements-cards .card1, .card2{
@@ -327,7 +328,51 @@ a {
     margin-bottom: 5px;
 }
 
+            /*Activités*/
+.activites {
+    padding-bottom: 20px;
+    height: 100%;
+}
+#Activites {
+    font-weight: 700;
+    font-size: 22px;
+}
+.texte-activites {
+    font-weight: 700;
+    font-size: 16px;
+}
 
+
+.contenu-activites{
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: row;
+    padding : 20px 19px 20px 19px;
+}
+.activites-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 439px;
+
+}
+.card-activites{
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activites-cards img {
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
