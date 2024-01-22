@@ -369,6 +369,10 @@ a {
 footer{
     background-color: var(--main-bg-color);
     margin-top: 30px;
+    display: flex;
+    align-items:flex-start;
+    height:auto;
+    width: auto;
 }
 .titre-footer{
     font-weight: 700;
@@ -378,12 +382,19 @@ footer{
     font-weight: 400;
     font-size: 16px;
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 .groupe-footer{
-    display: flex;
-
+   width: 100%;
+   padding:20px;
+   height: 163px;
+   margin: 0;
 }
 
+li{
+    padding-top: 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
