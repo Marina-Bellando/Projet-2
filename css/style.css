@@ -336,7 +336,7 @@ a {
     font-weight: 700;
     font-size: 16px;
     padding : 20px 19px 20px 19px;
-    margin-top:0px;
+    margin-top:-3px;
 }
 .activites-cards .contenu-activites{
     background-color: white;
