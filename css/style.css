@@ -67,19 +67,16 @@ header {
 }
 #nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   height: 79px;
 }
 #logo {
-  width: 61px;
   height: 19px;
-  padding: 15px 50px 30px 0px;
+  padding: 30px 0px 30px 0px;
 }
 .en_tete {
-  padding: 35px 0px 0px 0px;
   text-decoration: none;
   text-align: center;
   font-family: "Raleway";
@@ -88,23 +85,19 @@ header {
   display: flex;
   color: black;
   border-top: 1px solid transparent;
+  padding-top: 35px;
 }
 .bouton_en_tete {
   display: flex;
-  padding: 0px 25px 0px 50px;
 }
 .en_tete:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
 }
 .en_tete_1 {
-  width: 113px;
-  height: 35px;
   margin-right: 65px;
 }
 .en_tete_2 {
-  width: 63px;
-  height: 35px;
   margin-left: 30px;
 }
 
@@ -114,23 +107,15 @@ header {
   width: 100%;
 }
 .en-tete-rechercher {
-  width: 100%;
-  height: 53px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .titre-rechercher {
   font-weight: 700;
   font-size: 22px;
-  width: 100%;
-  height: 26px;
-  margin: 0px;
-  padding-bottom: 5px;
 }
 .descriptif-rechercher {
   font-weight: 400;
   font-size: 16px;
-  height: 19px;
-  margin: 0px;
 }
 
 form {
@@ -139,7 +124,7 @@ form {
   padding-bottom: 20px;
 }
 .icone-location {
-  width: 50px;
+  width: 5%;
   height: 49px;
   background-color: #f2f2f2;
   border-radius: 15px 0px 0px 15px;
@@ -153,7 +138,6 @@ form {
 #searchbar {
   font-weight: 700;
   font-size: 18px;
-  width: 147px;
   height: 49px;
   text-align: center;
   color: black;
@@ -170,13 +154,13 @@ input[type="submit"] {
   background-color: #0065fc;
   border-radius: 0px 15px 15px 0px;
   border: solid transparent 1px;
+  width: 15%;
 }
 .icone-loupe {
   display: none;
 }
 /*Zone Filtres*/
 .filtres {
-  width: 80%;
   padding-bottom: 20px;
   padding-top: 20px;
   display: flex;
@@ -186,12 +170,9 @@ input[type="submit"] {
 .Filtres {
   font-weight: 700;
   font-size: 18px;
-  width: 54px;
-  height: 21px;
 }
 .ensemble-filtre {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -202,6 +183,7 @@ input[type="submit"] {
   display: flex;
   align-items: center;
   margin-left: 15px;
+  height: 50px;
 }
 .fa-person,
 .fa-money-bill-wave,
@@ -222,9 +204,7 @@ input[type="submit"] {
   width: 100%;
 }
 .fa-circle-info {
-  width: 24px;
   height: 24px;
-  text-align: center;
   margin-right: 10px;
   margin-top: 7px;
 }
@@ -432,9 +412,9 @@ li {
   }
 
   .filtres {
-    width: 80%;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
   }
 
   .bouton-filtre {
@@ -444,6 +424,7 @@ li {
     margin-right: 20px;
     white-space: nowrap;
   }
+
   .infobar {
     width: 100%;
   }
@@ -498,5 +479,84 @@ li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
-}
+            /*En tête*/
+  header {
+    width:100%;
+    margin-bottom: 30px;
+  }
+  #nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  #logo {
+    padding-top: 0;
+  }
+  .bouton_en_tete {
+    width: 100%;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  .en_tete:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top:none;
+  }
+  .en_tete_1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  padding-top: 0;
+  }
+  .en_tete_2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  padding-top: 0;
+  }
+            /*Formulaire recherche*/
+  .onglet-rechercher {
+    width:100%;
+  }
+  .en-tete-rechercher {
+    display: flex;
+    flex-direction: column;
+  }
+  .titre-rechercher {
+    margin:0;
+  }
+  .descriptif-rechercher {
+    margin-bottom:0;
+  }
+  .icone-location {
+    width:15%;
+  }
+  input[type="submit"] {
+    display : none;
+  }
+  .icone-loupe {
+    display:block;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #0065fc;
+    border-radius: 15px 15px 15px 15px;
+    border: solid transparent 1px;
+    width: 15%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+  }
+            /*Zone Filtres*/
+  .filtres {
+    font-size: 14px;
+  }
+  .ensemble-filtre {
+    flex-wrap: wrap;
+  }
+  .bouton-filtre {
+    margin:4px;
+    width: 36%;
+  }
+          /*Hébergements*/
