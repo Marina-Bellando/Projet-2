@@ -346,6 +346,7 @@ input[type="submit"] {
 .activites {
   padding-top: 30px;
   width: 100%;
+  box-sizing: border-box;
 }
 #Activites {
   font-weight: 700;
@@ -357,6 +358,9 @@ input[type="submit"] {
   font-size: 16px;
   padding: 20px 19px 20px 19px;
   margin-top: -3px;
+}
+.card-activites{
+  width:100%;
 }
 .activites-cards .contenu-activites {
   background-color: white;
@@ -379,7 +383,7 @@ input[type="submit"] {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: auto;
+  height: 439px;
   justify-content: space-between;
   box-sizing: border-box;
 }
@@ -476,6 +480,15 @@ li {
   }
   .activites {
     width: 100%;
+  }
+  .activites-cards{
+
+  }
+  .card-activites{
+
+  }
+  .activites-cards img {
+
   }
   footer: {
     width: 100%;
