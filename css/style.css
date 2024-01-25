@@ -478,18 +478,19 @@ li {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
   .activites {
     width: 100%;
   }
-  .activites-cards{
 
-  }
   .card-activites{
-
+    width: 210px;
   }
+
   .activites-cards img {
-
+    width: 210px;
   }
+  
   footer: {
     width: 100%;
   }
