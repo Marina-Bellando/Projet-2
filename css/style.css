@@ -316,6 +316,7 @@ input[type="submit"] {
 
 .populaires-cards .card-subtitle {
   margin: 0;
+  font-size: 14px;
 }
 
 .populaires-cards .card-rating {
@@ -456,14 +457,6 @@ li {
     width: 30%;
   }
 
-  .populaires-cards .card-title {
-    font-size: 14px;
-  }
-
-  .populaires-cards .card-subtitle {
-    font-size: 13px;
-  }
-
   .activites {
     width: 100%;
   }
@@ -563,10 +556,21 @@ li {
     margin:4px;
     width: 36%;
   }
-          /*Hébergements*/
+          /*Populaires*/
   .hebergements-and-populaires section {
     border-radius: 0px;
   }
-  .hebergements {
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+  }
+  .populaires {
     width: 100%;
   }
+  .populaires-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .populaires-cards a {
+    width: 100%;
+  }
+          /*Hébergementts*/
