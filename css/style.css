@@ -350,8 +350,9 @@ input[type="submit"] {
 }
 .texte-activites {
   font-weight: 700;
-  padding: 20px 19px 20px 19px;
   margin-top: -3px;
+  padding-top: 15px;
+  padding-left: 19px;
 }
 
 /*Footer*/
