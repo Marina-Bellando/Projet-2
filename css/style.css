@@ -487,3 +487,9 @@ li {
     flex-direction: column;
   }
 }
+/* Small devices (phones, less than 428px) */
+@media (max-width: 428px) {
+  .bouton-filtre {
+    width: 55%;
+  }
+}
