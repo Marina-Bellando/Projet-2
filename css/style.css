@@ -388,6 +388,9 @@ li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .main-container {
+    padding: 0px;
+  }
   /*En tête*/
   header {
     margin-bottom: 30px;
@@ -421,6 +424,9 @@ li {
     padding-top: 0;
   }
   /*Formulaire recherche*/
+  .onglet-rechercher {
+    padding: 0 20px 0 20px;
+  }
   .titre-rechercher {
     margin: 0;
   }
@@ -479,6 +485,9 @@ li {
     width: 100%;
   }
               /*Zone Activités*/
+  .activites {
+    padding: 30px;
+  }
   .activites-cards {
     display: flex;
     flex-direction: column;
@@ -491,6 +500,7 @@ li {
               /*Zone Footer*/
   footer {
     flex-direction: column;
+    padding: 30px;
   }
 }
 /* Small devices (phones, less than 428px) */
