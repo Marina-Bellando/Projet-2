@@ -198,6 +198,7 @@ input[type="submit"] {
 }
 #section-title {
   font-size: 22px;
+  margin: 0px;
 }
 .hebergements-cards .card1 {
   display: flex;
