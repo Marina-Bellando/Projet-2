@@ -2,7 +2,10 @@
 * {
   font-family: "Raleway", sans-serif;
 }
-
+html, body {
+  margin:0;
+  padding:0;
+  }
 :root {
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
@@ -145,7 +148,6 @@ input[type="submit"] {
 .ensemble-filtre {
   display: flex;
 }
-
 .bouton-filtre {
   border-radius: 25px;
   border: solid 2px #d9d9d9;
